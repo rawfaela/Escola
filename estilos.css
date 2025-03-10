@@ -1,0 +1,54 @@
+/*? Geral */
+body{
+    background-color: rgb(247, 196, 180);
+    font-family: monospace;
+    font-size: 16px;
+}
+h1{
+    color: rgb(50, 20, 83);
+}
+input{
+    background-color: rgb(201, 150, 248);
+    border-color: rgb(201, 150, 248);
+}
+input[type=submit]{
+    background-color:  rgb(72, 28, 119);
+    color: rgb(201, 150, 248);
+    border-color:  rgb(72, 28, 119);
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+/*? Login */
+#bodylogin{
+    margin-left: 25px;
+    text-align: center;
+}
+
+/*? Menu */
+#bodymenu{
+    text-align: center;
+    margin-top: 30px;
+}
+.menu{
+    background-color: rgb(72, 28, 119);
+    color: rgb(201, 150, 248);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/*? Cadastro */
+#cadaluno{
+    width: 25%;
+    text-align: right;
+}
+#cadprof{
+    width: 30%;
+    text-align: right;
+}
+#cadcurso{
+    width: 28%;
+    text-align: right;
+}

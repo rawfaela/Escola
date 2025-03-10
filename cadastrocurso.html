@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <title>Cadastro</title>
+</head>
+<body id="cadcurso">
+    <h1>Cadastro de cursos</h1>
+    <form name="formulario" method="post" action="cadastro.php">
+        Codigo: <input type="text" name="codigocurso" id="codigocurso" size="20">
+        <br><br>
+        Nome do curso: <input type="text" name="nomecurso" id="nomecurso" size="20">
+        <br><br>
+        Coordenador do curso: <input type="text" name="coordenadorcurso" id="coordenadorcurso" size="20">
+        <br><br>
+        <input type="submit" name="salvarcurso" value="salvar">
+        <input type="submit" name="alterarcurso" value="alterar">
+        <input type="submit" name="excluircurso" value="excluir">
+        <input type="submit" name="pesquisarcurso" value="pesquisar">
+    </form>
+</body>
+</html>
