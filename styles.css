@@ -1,0 +1,80 @@
+/*? Geral */
+body{
+    background-color: rgb(247, 196, 180);
+    font-family: monospace;
+    font-size: 16px;
+}
+h1{
+    color: rgb(50, 20, 83);
+}
+input{
+    background-color: rgb(201, 150, 248);
+    border-color: rgb(201, 150, 248);
+}
+input[type=submit]{
+    background-color:  rgb(72, 28, 119);
+    color: rgb(201, 150, 248);
+    border-color:  rgb(72, 28, 119);
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+/*? Home */
+#top{
+    display:flex;
+    gap: 530px;
+    background-color: rgb(221, 171, 156);
+    border-radius: 10px;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+}
+.botaologin{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    background-color:  rgb(72, 28, 119);
+    color: rgb(201, 150, 248);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.imagem{
+    margin-top: 15px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/*? Login */
+#bodylogin{
+    text-align: center;
+}
+
+/*? Menu */
+#bodymenu{
+    text-align: center;
+    margin-top: 30px;
+}
+.menu{
+    background-color: rgb(72, 28, 119);
+    color: rgb(201, 150, 248);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/*? Cadastro */
+#cadaluno{
+    width: 25%;
+    text-align: right;
+}
+#cadprof{
+    width: 30%;
+    text-align: right;
+}
+#cadcurso{
+    width: 28%;
+    text-align: right;
+}
